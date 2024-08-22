@@ -36,3 +36,10 @@
     font-weight: 400;
     margin: 3% 0%;
 }
+
+/* next project */
+.next-project-section{
+    background: url(../assets/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
