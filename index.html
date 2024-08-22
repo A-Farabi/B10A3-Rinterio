@@ -12,12 +12,12 @@
 </head>
 
 <body class="w-[90%] m-auto lg:w-full">
-    <div class="gradient-color bg-gradient-to-b from-sky-500 to-indigo-500">
+    <div class="gradient-color bg-gradient-to-b from-[#F8EEEC] to-white">
 
 
         <section class="header-section ">
             <div class="container">
-                <div class="navbar bg-base-100">
+                <div class="navbar">
                     <div class="navbar-start">
                         <div class="dropdown">
                             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -36,9 +36,10 @@
                                 <li><a>Contact Us</a></li>
                             </ul>
                         </div>
-                        <a class="btn btn-ghost text-[2em]"><span><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                    class=" rounded-full size-8 bg-lime-400">
+                        <a class="btn btn-ghost text-[2em] text-black"><span class="text-black "><svg
+                                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor"
+                                    class=" rounded-full size-8 bg-lime-400 p-1">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                 </svg></span> Rinterio</a>
@@ -55,30 +56,29 @@
                     <div class="navbar-end gap-[10%] flex">
                         <div class="hidden lg:flex gap-10">
                             <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
-                            </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                                </svg>
+                            </div>
                         </div>
-                        <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-6">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                            </svg>
-                        </div>
-                        </div>
-                        <div>
-                            <a class="btn bg-lime-400 rounded-full">Book Condult
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-6 bg-lime-400">
+                        <div class="hidden lg:block">
+                            <button class="btn bg-lime-400 w-full border-none rounded-full">Book Consult<span
+                                    class="bg-black p-1 rounded-full text-lime-500"><svg
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                </span>
-                            </a>
+                                </span></button>
                         </div>
                     </div>
                 </div>
@@ -99,15 +99,14 @@
                                 with natural light.</p>
                         </article>
                         <div>
-                            <a class="btn bg-lime-200 rounded-full">Button
-                                <span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                        stroke-width="1.5" stroke="currentColor" class="size-6 bg-lime-400">
+                            <button class="btn bg-lime-200 border-none rounded-full">View Details<span
+                                    class="bg-lime-400 p-1 rounded-full text-black"><svg
+                                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                        stroke-width="1.5" stroke="currentColor" class="size-6">
                                         <path stroke-linecap="round" stroke-linejoin="round"
                                             d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                                     </svg>
-                                </span>
-                            </a>
+                                </span></button>
                         </div>
                     </div>
                 </div>
@@ -125,13 +124,14 @@
             <div class="design-controller lg:flex justify-between gap-10 items-center">
                 <div class="design-text">
                     <div class="about-us-text text-center flex flex-col justify-center items-center">
-                        <h5 class="bg-white text-black px-4 py-1 flex gap-1 mt-3 w-[25%] rounded-full text-[1em]">
+                        <h5 class="bg-white text-black px-4 py-1 flex gap-1 mt-3  rounded-full text-[1em]">
                             <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                     stroke-width="1.5" stroke="currentColor" class="size-6">
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                                 </svg>
-                            </span> About</h5>
+                            </span> About
+                        </h5>
 
                         <h1 class="text-4xl font-bold py-5">We design thoughtful, liveable spaces</h1>
                         <p>
@@ -399,11 +399,12 @@
     <!-- footer section starts here -->
     <section class="footer-section bg-[#1C1C1C] lg:mt-2 mt-5 rounded-lg">
         <div class="container">
-            <footer class="footer footer-center text-base-content rounded p-10 flex flex-col text-center justify-center">
+            <footer
+                class="footer footer-center text-base-content rounded p-10 flex flex-col text-center justify-center">
                 <div>
-                    <a class="btn btn-ghost text-[2em] text-white"><span><svg xmlns="http://www.w3.org/2000/svg"
-                                fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                                class=" rounded-full size-8 bg-lime-400">
+                    <a class="btn btn-ghost text-[2em] text-white"><span class="text-black "><svg
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class=" rounded-full size-8 bg-lime-400 p-1">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                             </svg></span> Rinterio</a>
