@@ -9,7 +9,9 @@
     width: 90%;
     margin: 0 auto;
 }
-
+.sectional-gap{
+    margin-top: 10%;
+}
 /* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); */
 
 /* banner style starts here */
