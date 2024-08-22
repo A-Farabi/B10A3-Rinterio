@@ -27,13 +27,11 @@
 .banner-text{
     text-align: center;
 }
-.banner-text h1{
+/* .banner-text h1{
     font-size: 4em;
     font-weight: bold;
-}
+} */
 .banner-text p{
-    font-size: 1.3em;
-    font-weight: 400;
     margin: 3% 0%;
 }
 
