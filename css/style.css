@@ -12,6 +12,9 @@
 .sectional-gap{
     margin-top: 10%;
 }
+.sectional-gap-bottom{
+    padding-bottom: 10%;
+}
 /* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap'); */
 
 /* banner style starts here */
